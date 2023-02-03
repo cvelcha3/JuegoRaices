@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Image background;
 
     private static GameManager instance;
-    private int index = 1;
+    private int index = 0;
     private int thisPuzzle = 0;
 
     private void Awake()
@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
         if(instance == null)
         {
             instance = this;
+            background.sprite = backgrounds[index];
+            index += 1;
         }
         else
         {
