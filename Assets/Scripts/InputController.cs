@@ -18,18 +18,18 @@ public class InputController : MonoBehaviour
             StartCoroutine(NextScene());
         };
     }
-    IEnumerator NextScene(bool puzzle = false) {
-        gameManager.NextImage();
+    IEnumerator NextScene() {
+        puzzle = gameManager.NextImage();
         goToNextScene = false;
         if (!puzzle)
         {
-            this.puzzle = false;
+            puzzle = false;
             yield return new WaitForSeconds(nextImageCooldown);
             goToNextScene = true;
         }
         else
         {
-            this.puzzle = true;
+            puzzle = true;
         }
     }
 }

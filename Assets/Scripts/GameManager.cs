@@ -6,11 +6,13 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] List<Sprite> backgrounds;
+    [SerializeField] List<int> puzzleIndex;
     [SerializeField] Image background;
 
     private static GameManager instance;
     private int index = 1;
-    private bool changeScene = false;
+    private int thisPuzzle = 0;
+
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -23,22 +25,22 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    void Update()
+
+    public bool NextImage(int index = 0)
     {
-        if (changeScene)
-        {
-            changeScene = false;
-            background.sprite = backgrounds[index];
-            index += 1;
-        }
-    }
-    public void NextImage(int index = 0)
-    {
-        changeScene = true;
         if (index != 0)
         {
             this.index = index;
         }
+        background.sprite = backgrounds[this.index];
+        if(this.index == puzzleIndex[thisPuzzle])
+        {
+            thisPuzzle += 1;
+            this.index += 1;
+            return true;
+        }
+        this.index += 1;
+        return false;
     }
     
 }
