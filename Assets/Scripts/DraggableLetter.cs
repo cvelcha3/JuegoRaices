@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WordsPuzzle : MonoBehaviour
+public class DraggableLetter : MonoBehaviour
 {
     Vector3 mousePositionRn;
     Vector3 getMousePosition()
