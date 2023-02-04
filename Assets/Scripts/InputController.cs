@@ -16,7 +16,6 @@ public class InputController : MonoBehaviour
     {
         if (goToNextScene && !puzzle && Input.GetButton("Fire1")) {
             goToNextScene = false;
-            Debug.Log("NextImage");
             StartCoroutine(NextScene());
         };
     }
@@ -27,7 +26,6 @@ public class InputController : MonoBehaviour
     }
     public void PuzzleDone()
     {
-        Debug.Log("Puzzle complete");
         puzzle = false;
     }
 }
