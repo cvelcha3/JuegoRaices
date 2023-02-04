@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] List<Sprite> backgrounds;
     [SerializeField] List<int> puzzleIndex;
+    [SerializeField] List<GameObject> puzzleObjects;
     [SerializeField] Image background;
 
     private static GameManager instance;
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviour
         background.sprite = backgrounds[this.index];
         if(this.index == puzzleIndex[thisPuzzle])
         {
+            puzzleObjects[thisPuzzle].SetActive(true);
             thisPuzzle += 1;
             this.index += 1;
             return true;
