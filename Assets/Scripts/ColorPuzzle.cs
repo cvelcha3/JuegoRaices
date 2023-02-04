@@ -7,15 +7,8 @@ public class ColorPuzzle : MonoBehaviour
     [SerializeField] List<bool> correctLights;
     [SerializeField] InputController input;
     [SerializeField] float delay= 1f;
-    private List<Light2D> lights = new List<Light2D>();
+    [SerializeField] List<Light2D> lights = new List<Light2D>();
     public bool isDone = false;
-    void Awake()
-    {
-        foreach(Transform child in transform)
-        {
-            lights.Add(child.gameObject.GetComponent<Light2D>());
-        }
-    }
     public void CheckLights()
     {
         var valid = true;
