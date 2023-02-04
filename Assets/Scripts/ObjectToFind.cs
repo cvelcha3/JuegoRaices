@@ -7,7 +7,7 @@ public class ObjectToFind : MonoBehaviour
     private FindPuzzle puzzle;
     private void Start()
     {
-        puzzle = transform.parent.GetComponent<FindPuzzle>();
+        puzzle = transform.parent.parent.GetComponent<FindPuzzle>();
     }
     void OnMouseOver()
     {
