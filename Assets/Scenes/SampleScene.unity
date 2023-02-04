@@ -15504,5 +15504,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2808145926707016315, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzleDelay
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}

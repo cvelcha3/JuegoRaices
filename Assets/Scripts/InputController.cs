@@ -5,6 +5,7 @@ using UnityEngine;
 public class InputController : MonoBehaviour
 {
     [SerializeField] float nextImageCooldown = 3.0f;
+    [SerializeField] float puzleDelay = 0.2f;
     private GameManager gameManager;
     private bool goToNextScene = true;
     private bool puzzle = false;
@@ -19,13 +20,14 @@ public class InputController : MonoBehaviour
             StartCoroutine(NextScene());
         };
     }
-    IEnumerator NextScene() {
+    IEnumerator NextScene(bool delay = false) {
+        if (delay) yield return new WaitForSeconds(puzleDelay);
         puzzle = gameManager.NextImage();
         yield return new WaitForSeconds(nextImageCooldown);
         goToNextScene = true;
     }
     public void PuzzleDone()
     {
-        puzzle = false;
+        StartCoroutine(NextScene(true));
     }
 }
