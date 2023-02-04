@@ -6,7 +6,9 @@ public class ColorPuzzle : MonoBehaviour
 {
     [SerializeField] List<bool> correctLights;
     [SerializeField] InputController input;
-    private List<Light2D> lights;
+    [SerializeField] float delay= 1f;
+    private List<Light2D> lights = new List<Light2D>();
+    public bool isDone = false;
     void Awake()
     {
         foreach(Transform child in transform)
@@ -14,14 +16,7 @@ public class ColorPuzzle : MonoBehaviour
             lights.Add(child.gameObject.GetComponent<Light2D>());
         }
     }
-    void Update()
-    {
-        if (CheckLights())
-        {
-            input.PuzzleDone();
-        }
-    }
-    public bool CheckLights()
+    public void CheckLights()
     {
         var valid = true;
         for (int i = 0; i <= correctLights.Count-1; i++)
@@ -31,6 +26,13 @@ public class ColorPuzzle : MonoBehaviour
                 valid = false;
             }
         }
-        return valid;
+        if (valid) StartCoroutine(DonePuzzle());
+    }
+    IEnumerator DonePuzzle()
+    {
+        isDone = true;
+        yield return new WaitForSeconds(delay);
+        input.PuzzleDone();
+        gameObject.SetActive(false);
     }
 }
