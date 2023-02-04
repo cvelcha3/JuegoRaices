@@ -6,10 +6,12 @@ public class Position : MonoBehaviour
 {
     [SerializeField] string letter = "";
     private WordPuzzle puzzle;
+    private AudioSource sound;
     public bool valid = false;
     private void Start()
     {
         puzzle = transform.parent.GetComponent<WordPuzzle>();
+        sound = gameObject.GetComponent<AudioSource>();
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -17,6 +19,7 @@ public class Position : MonoBehaviour
         {
             valid = true;
             puzzle.CheckWords();
+            sound.Play();
         }
         else {
             valid = false;
@@ -33,5 +36,9 @@ public class Position : MonoBehaviour
         {
             valid = false;
         }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        valid = false;
     }
 }
