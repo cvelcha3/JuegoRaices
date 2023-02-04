@@ -11,6 +11,7 @@ public class WordPuzzle : MonoBehaviour
 
     public void CheckWords()
     {
+        if (isDone) return;
         var valid = true;
         foreach(Position position in positions)
         {
