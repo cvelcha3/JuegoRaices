@@ -6,7 +6,7 @@ public class Mirror : MonoBehaviour
 {
     private WordPuzzle puzzle;
     private SpriteRenderer sprite;
-    private bool bad = true;
+    private bool bad = false;
     [SerializeField] Sprite goodSpr;
     [SerializeField] Sprite badSprt;
     [SerializeField] float interval = 3f;
@@ -14,22 +14,14 @@ public class Mirror : MonoBehaviour
     {
         puzzle = transform.parent.GetComponent<WordPuzzle>();
         sprite = GetComponent<SpriteRenderer>();
-        StartCoroutine(Change());
+
     }
-    IEnumerator Change()
+    private void Update()
     {
-        yield return new WaitForSeconds(interval);
-        if (!puzzle.isDone && !bad)
-        {
-            sprite.sprite = badSprt;
-            bad = true;
-        }
-        else if (bad)
+        if (puzzle.isDone)
         {
             sprite.sprite = goodSpr;
-            bad = false;
         }
-        StartCoroutine(Change());
     }
 
 }

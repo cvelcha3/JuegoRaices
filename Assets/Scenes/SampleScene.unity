@@ -16410,7 +16410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 1145277838}
-  delay: 10
+  delay: 7
   positions:
   - {fileID: 1539455670}
   - {fileID: 450199856}
@@ -26625,7 +26625,7 @@ PrefabInstance:
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: puzzleObjects.Array.data[0]
       value: 
-      objectReference: {fileID: 1620357079}
+      objectReference: {fileID: 1341641202}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: puzzleObjects.Array.data[1]
       value: 
