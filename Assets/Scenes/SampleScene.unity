@@ -6011,7 +6011,7 @@ MonoBehaviour:
   findObjects: []
   image: {fileID: 1690052233}
   black: {fileID: 21300000, guid: 927464c41cff01348a92c1866a14e0c5, type: 3}
-  badImage: {fileID: 0}
+  badImage: {fileID: 21300000, guid: d868daf79730e6048b765099be21d93e, type: 3}
   isDone: 0
 --- !u!1001 &361293797
 PrefabInstance:
@@ -26767,7 +26767,7 @@ PrefabInstance:
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[11]
       value: 
-      objectReference: {fileID: 21300000, guid: 0dcf71e1901b9bc48b4830b4ef945f58, type: 3}
+      objectReference: {fileID: 21300000, guid: d868daf79730e6048b765099be21d93e, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[12]
       value: 
@@ -26791,11 +26791,11 @@ PrefabInstance:
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[17]
       value: 
-      objectReference: {fileID: 21300000, guid: ff45a307e2450aa47bbe72418bef456b, type: 3}
+      objectReference: {fileID: 21300000, guid: 0dcf71e1901b9bc48b4830b4ef945f58, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[18]
       value: 
-      objectReference: {fileID: 21300000, guid: 0dcf71e1901b9bc48b4830b4ef945f58, type: 3}
+      objectReference: {fileID: 21300000, guid: ff45a307e2450aa47bbe72418bef456b, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[19]
       value: 
@@ -26803,7 +26803,7 @@ PrefabInstance:
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[20]
       value: 
-      objectReference: {fileID: 21300000, guid: 192cd1892437a3948ac7bd04c44c96c0, type: 3}
+      objectReference: {fileID: 21300000, guid: 0475eaaef4a96894a96035ef5e449c55, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[21]
       value: 
