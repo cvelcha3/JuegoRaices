@@ -26618,15 +26618,15 @@ PrefabInstance:
       objectReference: {fileID: 1690052233}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: hintsTexts.Array.size
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.size
-      value: 14
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: puzzleIndex.Array.size
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: hintsTexts.Array.data[0]
@@ -26658,32 +26658,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: hintsTexts.Array.data[7]
-      value: Check your notes
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: hintsTexts.Array.data[8]
-      value: Fill the tattoo
+      value: Check your notes
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: hintsTexts.Array.data[9]
-      value: Restore yourself
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: puzzleObjects.Array.size
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 407bd9f187bdeb6468eb9ebef2e46a7c, type: 3}
+      objectReference: {fileID: 21300000, guid: d17b2e4bacec4f04e93445087bdb6874, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: ff45a307e2450aa47bbe72418bef456b, type: 3}
+      objectReference: {fileID: 21300000, guid: 407bd9f187bdeb6468eb9ebef2e46a7c, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 571e11a695de6c748a3ae2fddd77ac2e, type: 3}
+      objectReference: {fileID: 21300000, guid: ff45a307e2450aa47bbe72418bef456b, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[3]
       value: 
@@ -26699,11 +26699,11 @@ PrefabInstance:
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[6]
       value: 
-      objectReference: {fileID: 21300000, guid: 02ee0904ebf9ee145b76752ae79b21b4, type: 3}
+      objectReference: {fileID: 21300000, guid: 571e11a695de6c748a3ae2fddd77ac2e, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[7]
       value: 
-      objectReference: {fileID: 21300000, guid: 02ee0904ebf9ee145b76752ae79b21b4, type: 3}
+      objectReference: {fileID: 21300000, guid: d83e0bb7c60408c4aa22d0ba998a8dd6, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[8]
       value: 
@@ -26711,63 +26711,119 @@ PrefabInstance:
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[9]
       value: 
-      objectReference: {fileID: 21300000, guid: 7351742913fa75f4c905d13d339d2147, type: 3}
+      objectReference: {fileID: 21300000, guid: 02ee0904ebf9ee145b76752ae79b21b4, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
-      propertyPath: puzzleIndex.Array.data[0]
-      value: 2
+      propertyPath: hintsTexts.Array.data[10]
+      value: Fill the tattoo
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
-      propertyPath: puzzleIndex.Array.data[1]
+      propertyPath: hintsTexts.Array.data[11]
+      value: Restore yourself
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleIndex.Array.data[0]
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
-      propertyPath: puzzleIndex.Array.data[2]
+      propertyPath: puzzleIndex.Array.data[1]
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
-      propertyPath: puzzleIndex.Array.data[3]
+      propertyPath: puzzleIndex.Array.data[2]
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
-      propertyPath: puzzleIndex.Array.data[4]
+      propertyPath: puzzleIndex.Array.data[3]
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
-      propertyPath: puzzleIndex.Array.data[5]
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
-      propertyPath: puzzleIndex.Array.data[6]
+      propertyPath: puzzleIndex.Array.data[4]
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
-      propertyPath: puzzleIndex.Array.data[7]
+      propertyPath: puzzleIndex.Array.data[5]
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
-      propertyPath: puzzleIndex.Array.data[8]
+      propertyPath: puzzleIndex.Array.data[6]
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
-      propertyPath: puzzleIndex.Array.data[9]
+      propertyPath: puzzleIndex.Array.data[7]
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleIndex.Array.data[8]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleIndex.Array.data[9]
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[10]
       value: 
-      objectReference: {fileID: 21300000, guid: a59417a941b5f3049bffc932be8643c8, type: 3}
+      objectReference: {fileID: 21300000, guid: 02ee0904ebf9ee145b76752ae79b21b4, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[11]
       value: 
-      objectReference: {fileID: 21300000, guid: cba08bc2da2c177409c4c8604aae84b9, type: 3}
+      objectReference: {fileID: 21300000, guid: 0dcf71e1901b9bc48b4830b4ef945f58, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[12]
       value: 
-      objectReference: {fileID: 21300000, guid: ff45a307e2450aa47bbe72418bef456b, type: 3}
+      objectReference: {fileID: 21300000, guid: 7351742913fa75f4c905d13d339d2147, type: 3}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: backgrounds.Array.data[13]
       value: 
+      objectReference: {fileID: 21300000, guid: f0e7aa9f9d3239d428727c3b7cfb8533, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: backgrounds.Array.data[14]
+      value: 
+      objectReference: {fileID: 21300000, guid: a59417a941b5f3049bffc932be8643c8, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: backgrounds.Array.data[15]
+      value: 
+      objectReference: {fileID: 21300000, guid: cba08bc2da2c177409c4c8604aae84b9, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: backgrounds.Array.data[16]
+      value: 
+      objectReference: {fileID: 21300000, guid: cd78359ed88ad9a468c09ffe50fb3278, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: backgrounds.Array.data[17]
+      value: 
+      objectReference: {fileID: 21300000, guid: ff45a307e2450aa47bbe72418bef456b, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: backgrounds.Array.data[18]
+      value: 
       objectReference: {fileID: 21300000, guid: 0dcf71e1901b9bc48b4830b4ef945f58, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: backgrounds.Array.data[19]
+      value: 
+      objectReference: {fileID: 21300000, guid: c1a279be6bd2d6246a47b68a1fc79ef5, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: backgrounds.Array.data[20]
+      value: 
+      objectReference: {fileID: 21300000, guid: 192cd1892437a3948ac7bd04c44c96c0, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: backgrounds.Array.data[21]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0dcf71e1901b9bc48b4830b4ef945f58, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: backgrounds.Array.data[22]
+      value: 
+      objectReference: {fileID: 21300000, guid: ff45a307e2450aa47bbe72418bef456b, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: backgrounds.Array.data[23]
+      value: 
+      objectReference: {fileID: 21300000, guid: ff45a307e2450aa47bbe72418bef456b, type: 3}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleIndex.Array.data[10]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleIndex.Array.data[11]
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: puzzleObjects.Array.data[0]
       value: 
@@ -26799,13 +26855,37 @@ PrefabInstance:
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: puzzleObjects.Array.data[7]
       value: 
-      objectReference: {fileID: 8793294}
+      objectReference: {fileID: 327226157}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: puzzleObjects.Array.data[8]
       value: 
-      objectReference: {fileID: 1651519328}
+      objectReference: {fileID: 8793294}
     - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
       propertyPath: puzzleObjects.Array.data[9]
+      value: 
+      objectReference: {fileID: 2106059322}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleObjects.Array.data[10]
+      value: 
+      objectReference: {fileID: 1651519328}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleObjects.Array.data[11]
+      value: 
+      objectReference: {fileID: 1341641202}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleObjects.Array.data[12]
+      value: 
+      objectReference: {fileID: 1341641202}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleObjects.Array.data[13]
+      value: 
+      objectReference: {fileID: 1341641202}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleObjects.Array.data[14]
+      value: 
+      objectReference: {fileID: 1341641202}
+    - target: {fileID: 2122246863297414629, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}
+      propertyPath: puzzleObjects.Array.data[15]
       value: 
       objectReference: {fileID: 1341641202}
     - target: {fileID: 2408358971326653574, guid: 88efde1ad33769f41ad40b56f37750fb, type: 3}

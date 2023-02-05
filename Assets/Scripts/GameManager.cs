@@ -40,16 +40,20 @@ public class GameManager : MonoBehaviour
             this.index = index;
         }
         background.sprite = backgrounds[this.index];
-        if(this.index == puzzleIndex[thisPuzzle])
+        try
         {
-            hintIcon.SetActive(true);
-            hints.gameObject.transform.parent.gameObject.SetActive(false);
-            hints.text = hintsTexts[thisPuzzle];
-            puzzleObjects[thisPuzzle].SetActive(true);
-            thisPuzzle += 1;
-            this.index += 1;
-            return true;
+            if (this.index == puzzleIndex[thisPuzzle])
+            {
+                hintIcon.SetActive(true);
+                hints.gameObject.transform.parent.gameObject.SetActive(false);
+                hints.text = hintsTexts[thisPuzzle];
+                puzzleObjects[thisPuzzle].SetActive(true);
+                thisPuzzle += 1;
+                this.index += 1;
+                return true;
+            }
         }
+        catch { };
         this.index += 1;
         return false;
     }
